@@ -11,19 +11,22 @@ body {
 }
 
 .navbar {
+    position: absolute;
     height: 100px;
     display: flex;
     flex-direction: row;
+    -ms-flex-align: center;
     align-items: center;
     background-color: #EDEDD7;
 }
 
 .nav-items-logo {
     width: 25%;
+    margin-right: 100px;
 }
 
 .nav-items {
-    padding: 25px;
+    margin: 2.5%;
     font-family: 'Poppins';
     font-size: 17px;
     font-weight:900;
@@ -32,12 +35,12 @@ body {
 
 .nav-logo {
     max-width: 50%;
-    padding-left: 40px;
-    padding-right: 0px;
+    margin-left: 40px;
     padding-top: 7px;
 }
 
 .button-register {
+    margin-left: 330%;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
     background-color: #FFC61A;
