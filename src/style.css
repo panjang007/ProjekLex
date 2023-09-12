@@ -114,3 +114,8 @@ header .content-1 h1 {
     font-family: 700;
     line-height: 1.5rem;
 }
+
+header .content-1 p {
+    margin-bottom: 2rem;
+    color: #525252;
+}
