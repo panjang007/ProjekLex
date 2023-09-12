@@ -2,43 +2,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>ProjekLex</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
     
-    <div><!--content wrapper-->
-        <div class="container">
-            <div class="nav">
-                <div class="nav-item">
-                    <a href="index.html">
-                        <img class="logo-lex" src="/asset/main_logo.png" alt="logo lex">
-                    </a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link" href="index.html">Utama</a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link" href="lex.html">Lex</a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link" href="program.html">Program</a>
-                </div>
-                <div class="nav-item">
-                    <a class="nav-link" href="about.html">Tentang Kami</a>
-                </div>
-                <div class="nav-item">
-                    <form action="register.html">
-                        <button class="nav-reg" type="submit">Daftar</button>
-                    </form>
-                </div>
-            </div>
-            <div class="content-1">
-                <img class="banner-1" src="/asset/logo 1.jpg" alt="banner ">
-            </div>
+    <nav>
+        <!--div.nav-logo>a[href="#"]>img[src="images/main_logo.png"]-->
+        <div class="nav-logo">
+            <a href="#">
+                <img src="asset/main_logo.png" alt="logo-Lex">
+            </a>
         </div>
-    </div>
 
+        <!--ul.nav-list>li*4>a[href="#"]-->
+        <!--ctrl + alt = multiple line selector-->
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Lex</a></li>
+            <li class="link"><a href="#">Program</a></li>
+            <li class="link"><a href="#">About Us</a></li>
+        </ul>
+
+        <button class="btn">Register Now</button>
+    </nav>
+
+    <header class="container">
+        <div class="content-1">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>SELAMAT DATANG KE PROJEK LEX</h4>
+            <h1>ProjekLex merupakan satu pertubuhan berdaftar di bawah ROS yang bertujuan untuk
+                meningkatkan kesedaran awam terhadap isu perundangan Malaysia
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Obcaecati officiis molestiae molestias aut, ea cupiditate 
+                eligendi in ex labore mollitia perferendis cum, iusto pariatur 
+                dicta magni expedita quas temporibus atque.
+            </p>
+            <button class="btn">Ketahui Lebih Lanjut</button>
+        </div>
+        <div class="image">
+            <img src="asset/logo 1.jpg" alt="banner-lex">
+        </div>
+    </header>
+
+    
+
+    <script src="src/general.js"></script>
 </body>
 </html>
