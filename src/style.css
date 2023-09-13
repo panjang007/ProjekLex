@@ -119,3 +119,27 @@ header .content-1 p {
     margin-bottom: 2rem;
     color: #525252;
 }
+
+header .image {
+    position: relative;
+}
+
+header .image::before {
+    content: "o";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 38rem;
+    line-height: 20rem;
+    color: #EDEDD7;
+    opacity: 0.2;
+    z-index: -100;
+
+}
+
+header .image img {
+    max-width: 600px;
+    margin: auto;
+}
+
