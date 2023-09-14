@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+
+/* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: #EDEDD7;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo-lex-nav {
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo {
+    max-width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75cm;
+    color: #525252;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after {
+    width: 70%;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #525252;
+    background-color: #FFC61A;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e6ad00;
+    transition: all 0.5s ease;
+}
+
+/* Card-like container for the article */
+.article-card {
+    max-width: 80%; /* Set the maximum width to 80% of the viewport width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Article banner (image) */
+.article-banner {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Article title */
+.article-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Author info container */
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Author avatar (circular image) */
+.author-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+/* Author name */
+.author-name {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* Horizontal line */
+.horizontal-line {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Article content */
+.article-content {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px; /* Add padding to improve readability */
+}
+
+.author-details {
+    text-align: left;
+    margin-top: 20px; /* Add appropriate spacing */
+    margin-left: 20px;
+}
+
+/* Author name */
+.author-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Author position */
+.author-position {
+    font-size: 16px;
+}
+
+/* Article date */
+.article-date {
+    font-size: 14px;
+    color: #888; /* You can adjust the color as needed */
+}
+
+/* Additional styles for other elements */
