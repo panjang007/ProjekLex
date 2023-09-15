@@ -141,8 +141,8 @@ nav {
 .article-content {
     text-align: left;
     font-size: 16px;
-    line-height: 1.6;
-    padding: 10px; /* Add padding to improve readability */
+    line-height: 2;
+    padding: 50px; /* Add padding to improve readability */
 }
 
 .author-details {
